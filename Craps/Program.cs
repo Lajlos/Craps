@@ -10,6 +10,8 @@ namespace Craps
     {
         static void Main(string[] args)
         {
+            Game craps = new Game();
+            craps.Play();
         }
     }
 }
